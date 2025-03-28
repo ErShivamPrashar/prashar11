@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    color: black;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -468,4 +469,201 @@ justify-content: space-between;
     background-color: #f1eeeeca;
     margin-top: 20px;
     cursor: pointer;
+}
+
+
+/* contest list desiggn here */
+
+.nav_contest{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.nav_contest p{
+    color: #dfdfdf;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.nav_contest .p1{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.contest_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 40px;
+background-color: #f1f0f0;
+box-shadow: 1px 1px 7px rgb(204, 172, 172);
+}
+
+.contest_info .info{
+    margin-right: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+   padding: 9px;
+   color: #434343;
+   font-size: 15px;
+}
+
+.contest_info .info:hover{
+    color: #E8291C;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+}
+
+
+.contest_info .info:active{
+    color: #E8291C;
+    border-bottom: 4px solid red;
+    border-radius: 5px;
+}
+
+.mega_contest{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.mega_list{
+    height: 109px;
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 1px 1px 7px rgb(204, 172, 172);
+   cursor: pointer;
+}
+
+.create{
+  width: 90%;
+    background-color: #f4f2f2;
+    margin: 20px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.create p{
+    margin-left: 20px;
+  
+}
+
+.create button ,.create button a{
+    margin-left: 30px;
+    color: blue;
+    border: transparent;
+    font-weight: 700;
+}
+
+.list_prize{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.entry{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+   margin-left: 30px;
+margin-right: 30px;
+}
+
+.prize {
+    font-size: 10px;
+font-weight: 500;
+}
+
+.prize p{
+    color: #8b8989;
+ 
+}
+
+.prize span{
+    font-size: 15px;
+   
+}
+.contest{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.contest p{
+    color: #8b8989;
+   
+}
+
+.contest span{
+background-color: rgb(5, 194, 5);
+    color: #fdfbfb;
+    font-size: 13px;
+    padding: 5px 17px;
+    border-radius: 5px;
+}
+
+.fill{
+    border: 2px solid rgb(251, 191, 191);
+    width: 90%;
+    margin-top: 3px;
+  margin-left: 22px;
+}
+
+.sports{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 10px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+
+.sports .sport1{
+    color: #E8291C;
+}
+
+.sports .sport2{
+    color:rgb(149, 149, 149);
+}
+
+.announce{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 3px;
+  background-color: #f1eeee;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.announce .prize1{
+    display: flex;
+    margin: 5px;
+    width: 50%;
+    font-weight: 600;
+    font-size: 10px;
+    justify-content: space-between;
+}
+
+.announce .prize1 p,sup{
+    color: #625f5f;
+    font-weight: 600;
+}
+
+.announce .prize{
+    margin: 5px;
+    color: green;
+    font-weight: bolder;
 }
